@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".createPageActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="27dp"
+        android:text="Create Game"
+        android:textAlignment="center" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="110dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="13dp"
+        android:layout_marginTop="84dp"
+        android:text="Email" />
+
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="226dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/textView6"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="19dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="193dp"
+        android:layout_toEndOf="@+id/textView6"
+        android:text="Start"
+        android:id="@+id/startgame"/>
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="112dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/textView6"
+        android:layout_marginTop="153dp"
+        android:text="Random Number" />
+
+    <TextView
+        android:id="@+id/random"
+        android:layout_width="228dp"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/email"
+        android:layout_alignTop="@+id/textView8"
+        android:text="random" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="149dp"
+        android:layout_height="152dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="54dp"
+        android:layout_marginStart="90dp"
+        android:text="TextView" />
+</RelativeLayout>

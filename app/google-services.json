@@ -1,0 +1,73 @@
+{
+  "project_info": {
+    "project_number": "790312496269",
+    "firebase_url": "https://androidstudy-a4737.firebaseio.com",
+    "project_id": "androidstudy-a4737",
+    "storage_bucket": "androidstudy-a4737.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:790312496269:android:2dac61d685b7542f",
+        "android_client_info": {
+          "package_name": "com.example.levantuan.finalproject_android"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "790312496269-q5e10ttfmjneatllrsohg1vcoc31tslf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC6lQ51RkYjQUJ1abwsoMqnrmcE8CKh9ag"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:790312496269:android:fe8f7b75e73c2fd2",
+        "android_client_info": {
+          "package_name": "com.example.macstudent.chatapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "790312496269-q5e10ttfmjneatllrsohg1vcoc31tslf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC6lQ51RkYjQUJ1abwsoMqnrmcE8CKh9ag"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

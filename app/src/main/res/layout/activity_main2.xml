@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Main2Activity">
+
+    <TextView
+        android:id="@+id/Nametxt"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:textAlignment="center"
+        android:textColor="@color/colorPrimary"
+        android:text="Name"
+        android:textSize="30dp"
+
+        />
+    <TextView
+        android:id="@+id/pointtxt"
+        android:layout_toRightOf="@+id/Nametxt"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:textAlignment="center"
+        android:textColor="@color/colorPrimary"
+        android:text="Point"
+        android:textSize="30dp"
+        />
+    <Button
+        android:id="@+id/getPlayersbtn"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/Nametxt"
+        android:layout_centerHorizontal="true"
+        android:text=" Player's Information"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:onClick="getPlayersPressed"
+        />
+    <Button
+        android:id="@+id/NearByPlayers"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/getPlayersbtn"
+        android:layout_centerHorizontal="true"
+        android:text="Nearby Your Location"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:onClick="NearByPlayersPressed"/>
+    <Button
+        android:id="@+id/create"
+        android:layout_below="@id/NearByPlayers"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_weight="1"
+        android:text="Create Game" />
+
+    <Button
+        android:id="@+id/join"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/create"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="Join Game" />
+    <Button
+        android:id="@+id/playwithbot"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/join"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:onClick="playBotPressed"
+        android:text="Play with Bots" />
+
+
+
+</RelativeLayout>
